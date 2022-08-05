@@ -1,0 +1,12 @@
+{
+    "service": {
+        "id": "CalculatorService",
+        "name": "CalculatorService",
+        "address": "server2.ip.server2.ip",
+        "tags": [
+            "webapi"
+        ],
+        "port": 9502
+    }
+}
+
