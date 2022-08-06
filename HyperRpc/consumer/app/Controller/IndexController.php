@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Rpc\CalculatorServiceInterface;
+use Hyperf\Di\Annotation\Inject;
 
 class IndexController extends AbstractController
 {
@@ -25,7 +26,6 @@ class IndexController extends AbstractController
 
     public function index()
     {
-        echo '??????';
         return $this->calculatorService->add(1,2);
     }
 }
